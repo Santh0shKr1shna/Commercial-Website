@@ -1,0 +1,428 @@
+body {
+    font: 15px/1.5;
+    font-family: Montserrat;
+    padding: 0%;
+    margin: 0%;
+    background-color:  #03273f; 
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.button_1{
+    height: 38px;
+    background: #ff4655;
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.button_1:hover {
+  width: 120px;
+  background: #ff707c;
+}
+
+header{
+    background: rgb(0, 0, 0);
+    color: white;
+    padding-top: 10px;
+    min-height: 40px;
+    max-height: 120px;
+    border-bottom: #ff4655 3px solid;
+}
+
+header h1{
+  font-family: Poppins;
+  text-align: right ;
+  color: rgb(253, 253, 253);
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+header ul{
+    margin-top: -10px;
+    border: 0px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 680px){
+  header {
+      min-height: 100px;
+      max-height: 180px;
+  }
+}
+
+header li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+    display: inline;
+    padding: 0 10px 0 20px;
+}
+
+header .high, header .cur a{
+    color: rgb(4, 98, 175);
+    font-weight: bold;
+}
+
+header a:hover{
+    color: rgb(16, 175, 248);
+}
+
+#showcase{
+    border-bottom: #ff4655 5px solid;
+    min-height: 600px;
+    background: url(https://free4kwallpapers.com/uploads/originals/2021/03/23/astronauts-wish-wallpaper.jpg) no-repeat 0px -200px;
+    background-size: 1900px;
+    color: white;
+}
+
+#showcase h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    text-align: left;
+    color: rgb(253, 253, 253);
+}
+
+#showcase p{
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+#events{
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+#events .event{
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 10px;
+}
+
+#events h1{
+  float: left;
+  margin: 10px 20px 10px 30px; 
+}
+
+.event img {
+  width: 240px;
+  height: 300px;
+}
+
+#events a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.event img:hover {
+  opacity: 0.5;
+}
+
+/*
+https://upload.wikimedia.org/wikipedia/commons/6/6f/Space_Shuttle_Enterprise_im_Space_Hangar.jpg
+https://media.wired.com/photos/5de68313a4136b0008e27b3b/master/w_1600%2Cc_limit/10228%252520GEMINI%2525206%2C%252520Vintage%252520Color%252520Photograph%252520of%252520Wally%252520Schirra.jpg
+https://api.timeforkids.com/wp-content/uploads/2019/12/flags.jpg
+  https://pyxis.nymag.com/v1/imgs/bf3/d84/1d4ad76e276f52d0cfe0822d7065c059bd-21-big-bang-theory.2x.h473.w710.jpg
+*/
+
+.para{
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+#newsletter{
+    padding: 15px;
+    color: white;
+    background: #044570;
+    border-bottom: #ff4655 5px solid;
+}
+  
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#newsletter input[type="email"]{
+    padding: 17px;
+    height: 25px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#newsletter a {
+  text-decoration: none;
+  color: white;
+}
+
+#gallery{
+  color: rgb(4, 13, 54);
+  padding: 2%;
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border-bottom: #ff4655 5px solid;
+  border-top: #ff4655 5px solid;
+}
+
+#gallery h1{
+font-family: Montserrat;
+color:rgb(4, 13, 54);
+text-align: left;
+font-weight: bolder;
+font-size: 28px;
+margin-bottom: 0;
+}
+
+#end{
+    margin-top: -100px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#end .box{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#end .box img{
+    width: 40%;
+}
+
+@media (max-width: 750px) {
+  #end {
+    margin-top: 0px;
+  }
+}
+
+footer{
+    padding: 3px;
+    margin-top: 3px;
+    color: white;
+    background: #ff4655;
+    text-align: left;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.donate{   
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin-right: 30px;
+    padding: 0;
+    font-family: "Poppins";
+    font-size: 0.7647058824rem;
+    margin-top: 10px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #122a6b;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 4px;
+    margin-right: -10px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -40px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+@media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+.img_twitter{
+    opacity: 1
+}
+
+.img_twitter:hover{
+    opacity: 0.5;
+    color:rgb(255, 255, 255);
+}
+
+.contain {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.top-left{
+  color: black;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
+
+
+/* History page*/
+
+#history_title{
+  min-height: 275px;
+  background: url(https://images8.alphacoders.com/938/938293.jpg) no-repeat 0px -100px;
+  background-size: 1500px;
+  color: white;
+  border-bottom: #ff4655 3px solid;
+}
+
+#history_title h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Zilla Slab Highlight;
+  font-weight: bold;
+  float: left;
+  font-size: 75px;
+  color: black;
+}
+
+#history_title p{
+  margin-top: 10px;
+  font-family: Poppins; 
+  color: black;
+  font-weight: 600;
+  font: 15px/1.5;
+  float: left;
+  margin-left: -220px;
+}
+
+#history{
+  border-bottom: #ff4655 5px solid;
+  min-height: 1000px;
+  background: white;
+  color: rgb(1, 19, 99);
+}
+
+#history p{
+  font-family: Poiret One;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 100px 50px 50px 50px;
+}
+
+#history img{
+  width: 257px; 
+  height: 150px;
+  float: right;
+}
+
+/* Donate */
+
+.head {
+  min-height: 250px;
+  background: url(https://wallpaper.dog/large/5569895.jpg) no-repeat 0px -100px;
+  background-size: 1600px;
+  color: rgb(0, 0, 0);
+  margin-top: -18px;
+  border-bottom: #ff4655 3px solid;
+}
+
+.head h1{
+  float: left;
+  font-family: Zilla Slab Highlight;
+  font-size: 36px;
+  color: #000000;
+  margin-top: 20px;
+  margin: 30px 0px 0px 40px; /*top rt btm lft*/
+}
+
+.head p {
+  font-size: 18px;
+  margin-left: 40px;
+  font-family: Oswald;
+  font-weight: bolder;
+}
+
+
+#main h1{
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+
+}
+#main p{
+  color: white;
+}
+
+
+
